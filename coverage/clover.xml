@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1609942502284" clover="3.2.0">
+  <project timestamp="1609942502284" name="All files">
+    <metrics statements="30" coveredstatements="21" conditionals="12" coveredconditionals="10" methods="13" coveredmethods="7" elements="55" coveredelements="38" complexity="0" loc="30" ncloc="30" packages="3" files="10" classes="10"/>
+    <package name="marenas-app">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="C:\Users\Lucas\Desktop\marenas-app\App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="marenas-app.app.navigations">
+      <metrics statements="25" coveredstatements="19" conditionals="12" coveredconditionals="10" methods="8" coveredmethods="5"/>
+      <file name="MisviajesStack.js" path="C:\Users\Lucas\Desktop\marenas-app\app\navigations\MisviajesStack.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="Navigation.js" path="C:\Users\Lucas\Desktop\marenas-app\app\navigations\Navigation.js">
+        <metrics statements="17" coveredstatements="14" conditionals="12" coveredconditionals="10" methods="4" coveredmethods="4"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="42" count="8" type="cond" truecount="4" falsecount="2"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="66" count="8" type="stmt"/>
+      </file>
+      <file name="NotificacionesStack.js" path="C:\Users\Lucas\Desktop\marenas-app\app\navigations\NotificacionesStack.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="PerfilStack.js" path="C:\Users\Lucas\Desktop\marenas-app\app\navigations\PerfilStack.js">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+      <file name="ReservarStack.js" path="C:\Users\Lucas\Desktop\marenas-app\app\navigations\ReservarStack.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="marenas-app.app.screens">
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="Misviajes.js" path="C:\Users\Lucas\Desktop\marenas-app\app\screens\Misviajes.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="Notificaciones.js" path="C:\Users\Lucas\Desktop\marenas-app\app\screens\Notificaciones.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="Perfil.js" path="C:\Users\Lucas\Desktop\marenas-app\app\screens\Perfil.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+      <file name="Reservar.js" path="C:\Users\Lucas\Desktop\marenas-app\app\screens\Reservar.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

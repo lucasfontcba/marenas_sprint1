@@ -1,0 +1,36 @@
+[
+    {
+        "signIn": [
+            "Iniciar sesión",
+            "Sign in"
+        ],
+        "a002": [
+            "Registrarme",
+            "Sign up"
+        ],
+        "a003": [
+            "explorar habitaciones",
+            "search for rooms"
+        ],
+        "a004": [
+            "english",
+            "español"
+        ],
+        "b001": [
+            "Reservar",
+            "Reserve"
+        ],
+        "b002": [
+            "Mis Viajes",
+            "My trips"
+        ],
+        "b003": [
+            "Notificaciones",
+            "Notifications"
+        ],
+        "b004": [
+            "Perfil",
+            "Profile"
+        ]
+    }
+]

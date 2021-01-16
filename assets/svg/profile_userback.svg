@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="213" height="213" viewBox="0 0 213 213">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003a4d;
+        stroke: #f27590;
+        stroke-width: 2px;
+        opacity: 0.943;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 42px;
+        font-family: la-solid-900;
+        font-weight: 900;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        filter: url(#_98e4fc062ccc3b458c7ea616a3952480);
+      }
+    </style>
+    <filter id="_98e4fc062ccc3b458c7ea616a3952480" x="0" y="0" width="213" height="213" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#152877" flood-opacity="0.588"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_229" data-name="Group 229" transform="translate(-82 -74)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 82, 74)">
+      <g id="_98e4fc062ccc3b458c7ea616a3952480-2" data-name="98e4fc062ccc3b458c7ea616a3952480" class="cls-1" transform="translate(56 50)">
+        <circle class="cls-3" cx="46.5" cy="46.5" r="46.5"/>
+        <circle class="cls-4" cx="46.5" cy="46.5" r="45.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

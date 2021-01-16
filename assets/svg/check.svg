@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94" height="126.351" viewBox="0 0 94 126.351">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 32px;
+        font-family: WorkSans-SemiBold, Work Sans;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="Check" transform="translate(-133 -212.649)">
+    <text id="_" data-name="*****" class="cls-1" transform="translate(180 331)"><tspan x="-46.56" y="0">*****</tspan></text>
+    <g id="Group_206" data-name="Group 206" transform="translate(-502.813 -48.437)">
+      <g id="Group_225" data-name="Group 225" transform="translate(646.812 261.086)">
+        <path id="Path_283" data-name="Path 283" class="cls-2" d="M683.756,334.828a37.472,37.472,0,0,1-4.223-.239,36.867,36.867,0,1,1,40.783-32.482h0a36.878,36.878,0,0,1-36.561,32.721Zm-.1-72.471a35.6,35.6,0,1,0,35.4,39.607h0a35.6,35.6,0,0,0-31.362-39.378A35.749,35.749,0,0,0,683.658,262.357Z" transform="translate(-646.812 -261.086)"/>
+      </g>
+      <g id="Group_227" data-name="Group 227" transform="translate(658.626 278.331)">
+        <g id="Group_226" data-name="Group 226" transform="translate(0 0)">
+          <path id="Path_284" data-name="Path 284" class="cls-2" d="M656.109,299.4l6.161-7.551,14.413,10.412L700.1,274.657l7.061,6.21-30.122,34.717Z" transform="translate(-656.109 -274.657)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

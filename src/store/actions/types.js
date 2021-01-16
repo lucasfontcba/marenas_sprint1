@@ -1,0 +1,5 @@
+export const SETLANG_APP = "SETLANG_APP"
+export const SETSIGNINNAV_APP = "SETSIGNINNAV_APP"
+
+export const SETGUEST_USER = "SETGUEST_USER"
+export const SETLOGIN_USER = "SETLOGIN_USER"
