@@ -1,15 +1,18 @@
 import React from 'react'
+import { useDispatch } from "react-redux"
 import { KeyboardAvoidingView, Text, StyleSheet, StatusBar } from "react-native"
 
 import BttnBack from "../../theme/components/BttnBack"
 import BttnSolid from "../../theme/components/BttnSolid"
 import BttnBorder from "../../theme/components/BttnBorder"
 import TextInputIcon from "../../theme/components/TextInputIcon"
-import GlobalStyles from '../../theme/GlobalStyles'
+
 
 import cs from "../../theme/CommonStyles"
 
 const SignInMail = (props) => {
+
+    const dispatch = useDispatch()
 
     const [emailValue, setEmailValue] = React.useState("")
     const [passwordValue, setPasswordValue] = React.useState("")
