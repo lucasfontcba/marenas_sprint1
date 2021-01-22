@@ -23,7 +23,7 @@ export default CommonStyles = StyleSheet.create({
   textBackBold: {
     fontSize: 16,
     color: GlobalStyles.colorSet.heroBack,
-    fontFamily: GlobalStyles.fontSet.Bold,
+    fontFamily: "WorkSans_600SemiBold",
   },
 
   titleThinWhite: {
@@ -37,7 +37,7 @@ export default CommonStyles = StyleSheet.create({
     fontSize: 22,
   },
   titleHero: {
-    fontFamily: GlobalStyles.fontSet.Bold,
+    fontFamily: "WorkSans_600SemiBold",
     color: GlobalStyles.colorSet.hero,
     fontSize: 25,
   },

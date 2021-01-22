@@ -1,18 +1,18 @@
 import React from 'react'
 import { createStackNavigator } from "@react-navigation/stack"
 
-import Reserve from "../screens/reserve/Reserve"
+import Travels from "../screens/travels/Travels"
 
 
 const Stack = createStackNavigator()
 
-export default function ReserveStack() {
+export default function TravelsNavigator() {
     return (
         <Stack.Navigator headerMode={"none"}>
             <Stack.Screen
-                name="Reserve"
-                component={Reserve}
-                options={{ title: "Reservar" }}
+                name="Travels"
+                component={Travels}
+                options={{ title: "Mis viajes" }}
             />
 
         </Stack.Navigator>

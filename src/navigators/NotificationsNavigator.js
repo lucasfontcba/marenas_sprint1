@@ -6,7 +6,7 @@ import Notifications from "../screens/notifications/Notifications"
 
 const Stack = createStackNavigator()
 
-export default function NotificationsStack() {
+export default function NotificationsNavigator() {
     return (
         <Stack.Navigator headerMode={"none"} >
             <Stack.Screen

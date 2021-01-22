@@ -1,17 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import * as Font from 'expo-font';
 import { Provider } from "react-redux"
 import AppLoading from 'expo-app-loading';
 import configureStore from "./src/store/Index"
-import { useFonts, WorkSans_500Medium, WorkSans_600SemiBold, WorkSans_100Thin } from '@expo-google-fonts/work-sans';
 import AppContainer from "./src/components/AppContainer/AppContainer"
 
 const store = configureStore()
 
 const App = () => {
 
-  let [fontsLoaded] = useFonts({ WorkSans_500Medium, WorkSans_600SemiBold, WorkSans_100Thin })
+  const [isReady, setIsReady] = useState(false);
 
-  if (!fontsLoaded) { return <AppLoading /> } else {
+  useEffect(() => {
+    Font.loadAsync({
+      WorkSans_500Medium: require("./assets/fonts/WorkSans_500Medium.ttf"),
+      WorkSans_600SemiBold: require("./assets/fonts/WorkSans_600SemiBold.ttf"),
+      WorkSans_100Thin: require("./assets/fonts/WorkSans_100Thin.ttf"),
+    }).then(() => setIsReady(true));
+  }, []);
+
+  if (!isReady) { return <AppLoading /> } else {
 
     return (
       <Provider store={store} >

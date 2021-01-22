@@ -8,7 +8,7 @@ const _colorSet = {
 };
 
 const _fontSet = {
-    Thin: 'thin',
+    Thin: 'WorkSans_100Thin',
     Regular: 'WorkSans_500Medium',
     Bold: 'WorkSans_600SemiBold',
 };
